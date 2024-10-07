@@ -8,14 +8,15 @@ public class SpawnScript : MonoBehaviour
     public int spawnrate = 2;
     private float timer = 0;
     public float highOffstet = 1;
-    // Start is called before the first frame update
+    
+    
     void Start()
     {
         SpawnPipe();
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (timer < spawnrate)
